@@ -1,0 +1,547 @@
+ body {
+   padding: 0;
+   margin: 0;
+   background-color: #3586ff;
+ }
+
+
+
+ form .h1 {
+   background: darkgray;
+   text-align: center;
+   font-style: italic;
+ }
+
+
+
+ form {
+
+   margin: auto;
+   z-index: 1;
+ }
+
+ .nom input {
+   width: 165px;
+   margin-right: 20px;
+ }
+
+ input,
+ button {
+   box-sizing: border-box;
+   display: block;
+   width: 100%;
+   padding: 20px;
+   font-size: 1.3em;
+   margin-bottom: 20px;
+   outline: none;
+   border: none;
+ }
+
+ input {
+   color: darkslategrey;
+ }
+
+ .button3 {
+   color: darkslategrey;
+   background: white;
+   font-weight: bold;
+
+
+ }
+
+ .PAYE {
+   border: 0;
+   line-height: 2.5;
+   padding: 0 20px;
+   font-size: 1rem;
+   text-align: center;
+   color: #ffffff;
+   text-shadow: 1px 1px 1px #ff000000;
+   border-radius: 10% 5% 10% 5%;
+   background-color: rgba(220, 0, 0, 0);
+   background-image: linear-gradient(to right, #f5fafc, #ffffff);
+   box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.171);
+
+ }
+
+ .styled:hover {
+   background-color: rgb(255, 251, 251);
+ }
+
+ .styled:active {
+   box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.164);
+ }
+
+
+ .PAYE a {
+   text-decoration: none;
+   color: black;
+ }
+
+ .form {
+  display: flex;
+  margin-top: 15%;
+  background: #3586ff;
+  z-index: 2;
+
+}
+
+ .payment {
+
+   width: 100%;
+   height: 50px;
+ }
+
+ .payment img {
+   height: 100px;
+   display: block;
+   margin: auto;
+ }
+
+
+ @media screen and (max-widht:1385px) {
+   .terre {
+     display: flex;
+     margin: auto;
+
+   }
+
+ }
+
+ header {
+
+   padding: 30px;
+   text-align: center;
+   background: #1abc9c;
+
+ }
+
+ .animate-charcter {
+   text-transform: uppercase;
+   background-image: linear-gradient(-225deg,
+       #231557 0%,
+       #44107a 29%,
+       #ff1361 67%,
+       #fff800 100%);
+   background-size: auto auto;
+   background-clip: border-box;
+   background-size: 200% auto;
+   color: #fff;
+   background-clip: text;
+   text-fill-color: transparent;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   animation: textclip 2s linear infinite;
+   display: inline-block;
+   font-size: 50px;
+ }
+
+ @keyframes textclip {
+   to {
+     background-position: 200% center;
+   }
+ }
+
+ .qui {
+   border: solid 1px black;
+   border-radius: 10px;
+   background-color: #f5fafc;
+   width: 50%;
+   margin: auto;
+   margin-top: 15%;
+
+
+ }
+
+ .qui h2 {
+   display: flex;
+   justify-content: center;
+ }
+
+ .qui p {
+   font-family: 'IBM Plex Mono', monospace;
+
+ }
+
+ #background-wrap {
+   bottom: 0;
+   left: 0;
+   position: fixed;
+   right: 0;
+   top: 0;
+   z-index: 2;
+ }
+
+ 
+
+ @-webkit-keyframes animateBubble {
+   0% {
+     margin-top: 1000px;
+   }
+
+   100% {
+     margin-top: -100%;
+   }
+ }
+
+ @-moz-keyframes animateBubble {
+   0% {
+     margin-top: 1000px;
+   }
+
+   100% {
+     margin-top: -100%;
+   }
+ }
+
+ @keyframes animateBubble {
+   0% {
+     margin-top: 1000px;
+   }
+
+   100% {
+     margin-top: -100%;
+   }
+ }
+
+ @-webkit-keyframes sideWays {
+   0% {
+     margin-left: 0px;
+   }
+
+   100% {
+     margin-left: 50px;
+   }
+ }
+
+ @-moz-keyframes sideWays {
+   0% {
+     margin-left: 0px;
+   }
+
+   100% {
+     margin-left: 50px;
+   }
+ }
+
+ @keyframes sideWays {
+   0% {
+     margin-left: 0px;
+   }
+
+   100% {
+     margin-left: 50px;
+   }
+ }
+
+
+
+ .x1 {
+   -webkit-animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+   -moz-animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+   animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+
+   left: -5%;
+   top: 5%;
+
+   -webkit-transform: scale(0.6);
+   -moz-transform: scale(0.6);
+   transform: scale(0.6);
+ }
+
+ .x2 {
+   -webkit-animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+   -moz-animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+   animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+
+   left: 5%;
+   top: 80%;
+
+   -webkit-transform: scale(0.4);
+   -moz-transform: scale(0.4);
+   transform: scale(0.4);
+ }
+
+ .x3 {
+   -webkit-animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
+   -moz-animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
+   animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
+
+   left: 10%;
+   top: 40%;
+
+   -webkit-transform: scale(0.7);
+   -moz-transform: scale(0.7);
+   transform: scale(0.7);
+ }
+
+ .x4 {
+   -webkit-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+   -moz-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+   animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+
+   left: 20%;
+   top: 0;
+
+   -webkit-transform: scale(0.3);
+   -moz-transform: scale(0.3);
+   transform: scale(0.3);
+ }
+
+ .x5 {
+   -webkit-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+   -moz-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+   animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+
+   left: 30%;
+   top: 50%;
+
+   -webkit-transform: scale(0.5);
+   -moz-transform: scale(0.5);
+   transform: scale(0.5);
+ }
+
+ .x6 {
+   -webkit-animation: animateBubble 21s linear infinite, sideWays 2s ease-in-out infinite alternate;
+   -moz-animation: animateBubble 21s linear infinite, sideWays 2s ease-in-out infinite alternate;
+   animation: animateBubble 21s linear infinite, sideWays 2s ease-in-out infinite alternate;
+
+   left: 50%;
+   top: 0;
+
+   -webkit-transform: scale(0.8);
+   -moz-transform: scale(0.8);
+   transform: scale(0.8);
+ }
+
+ .x7 {
+   -webkit-animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
+   -moz-animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
+   animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
+
+   left: 65%;
+   top: 70%;
+
+   -webkit-transform: scale(0.4);
+   -moz-transform: scale(0.4);
+   transform: scale(0.4);
+ }
+
+ .x8 {
+   -webkit-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+   -moz-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+   animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+
+   left: 80%;
+   top: 10%;
+
+   -webkit-transform: scale(0.3);
+   -moz-transform: scale(0.3);
+   transform: scale(0.3);
+ }
+
+ .x9 {
+   -webkit-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+   -moz-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+   animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+
+   left: 90%;
+   top: 50%;
+
+   -webkit-transform: scale(0.6);
+   -moz-transform: scale(0.6);
+   transform: scale(0.6);
+ }
+
+ .x10 {
+   -webkit-animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
+   -moz-animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
+   animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
+
+   left: 80%;
+   top: 80%;
+
+   -webkit-transform: scale(0.3);
+   -moz-transform: scale(0.3);
+   transform: scale(0.3);
+ }
+
+ /* OBJECTS */
+
+ .bubble {
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   border-radius: 50%;
+
+   -webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+   -moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+
+   height: 200px;
+   position: absolute;
+   width: 200px;
+ }
+
+ .bubble:after {
+   background: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 70%);
+   /* FF3.6+ */
+   background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255, 255, 255, 0.5)), color-stop(70%, rgba(255, 255, 255, 0)));
+   /* Chrome,Safari4+ */
+   background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 70%);
+   /* Chrome10+,Safari5.1+ */
+   background: -o-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 70%);
+   /* Opera 12+ */
+   background: -ms-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 70%);
+   /* IE10+ */
+   background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 70%);
+   /* W3C */
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80ffffff', endColorstr='#00ffffff', GradientType=1);
+   /* IE6-9 fallback on horizontal gradient */
+
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   border-radius: 50%;
+
+   -webkit-box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
+   -moz-box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
+   box-shadow: inset 0 20px 30px rgba(255, 255, 255, 0.3);
+
+   content: "";
+   height: 180px;
+   left: 10px;
+   position: absolute;
+   width: 180px;
+ }
+ .footer2 .wave.wave1
+{
+  animation:animate 30s linear infinite ;
+  z-index: 1000;
+  opacity: 1;
+  animation-delay: 0s;
+  bottom: 0;
+ 
+}
+@keyframes animate 
+{
+  0%
+  {
+    background-position-x: 0;
+  }
+  100%
+  {
+    background-position-x: 1000px;
+  }
+}
+.footer2 .wave.wave2
+{
+  animation:animate2 15s linear infinite ;
+  z-index: 999;
+  opacity:0.5;
+  animation-delay: -5s;
+  bottom: 10px;
+ 
+}
+@keyframes animate2 
+{
+  0%
+  {
+    background-position-x: 0;
+  }
+  100%
+  {
+    background-position-x: -1000px;
+  }
+}
+.footer2 .wave.wave3
+{
+  animation:animate3 15s linear infinite ;
+  z-index: 998;
+  opacity:0.2;
+  animation-delay: -2s;
+  bottom: 20px;
+ 
+}
+.footer2 .wave.wave4
+{
+  animation:animate4 15s linear infinite ;
+  z-index: 997;
+  opacity:0.7;
+  animation-delay: -2s;
+  bottom: 15px;
+
+}
+@keyframes animate3
+{
+  0%
+  {
+    background-position-x: 0;
+  }
+  100%
+  {
+    background-position-x: -1000px;
+  }
+}
+.footer2 .wave{
+  position: absolute;
+
+  bottom:0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url(../Projet-Voyage/img/wave.png);
+  background-size: 1000px 100px;
+
+}
+div.slide-droite {
+  width: 85%;
+  display: flex;
+  justify-content: auto;
+  font-family:'Caveat', cursive ;
+  padding: 0;
+  margin-left: 100px;
+  margin-bottom: 250px;
+  margin-top: 50px;
+ }
+ .slide-droite img {
+  width: 100%;
+ }
+ .slide-droite p {
+  margin-left:50px;
+  margin-right: 50px;
+ }
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  position: relative;
+  padding-bottom: 80px;
+  background-color: #3586ff;
+  color: #fdfcfc;
+
+}
+footer ul {
+  list-style-type : none;
+}
+footer ul li{
+  color: rgb(253, 253, 253);
+}
+
+
+
+@keyframes slide-right {
+  from {
+    margin-left: -100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.footer-basic {
+  padding: 40px 0;
+  background-color: #ffffff;
+  color: #4b4c4d;
+}
